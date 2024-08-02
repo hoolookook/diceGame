@@ -1,7 +1,6 @@
-import ReactDOM from 'react-dom/client';
+import { Fragment } from 'react';
+import ReactDOM from 'react-dom';
+import App from './app';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <h1>안녕 리액트!</h1>,
-  document.getElementById('root')
-);
+
+ReactDOM.render(<App />,document.getElementById('root'));
